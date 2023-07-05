@@ -4,7 +4,7 @@ int menseki(int);
 
 int main(void){
     int type;
-    printf("}Œ`‚Ìí—Ş ");
+    printf("}Œ`‚Ìí—Ş ");  
     scanf("%d",type);
     printf("–ÊÏ : %d",menseki(type));
 }
@@ -13,10 +13,39 @@ int menseki(type){
     switch (type)
     {
     case 1:
-        
+        int under,high;
+        printf("’ê•ÓA‚‚³ : ");
+        scanf("%d,%d",&under ,&high);
+        return under * high / 2;
+        break;
+
+    case 2:
+        int under,high;
+        printf("cA‰¡ : ");
+        scanf("%d,%d",&high ,&under);
+        return under * high;
+        break;
+
+    case 3:
+        int under,over,high;
+        printf("ã’êA‰º’êA‚‚³ : ");
+        scanf("%d,%d,%d",&over ,&under ,&high);
+        return (over + under) / 2 * high;
         break;
     
+    case 4:
+        int under,high;
+        printf("’ê•ÓA‚‚³ : ");
+        scanf("%d,%d",&under ,&high);
+        return under * high;
+        break;
+
+    case 5:
+        int radius;
+        printf("”¼Œa");
+
     default:
+        printf("error");
         break;
     }
-}
+}//yeah

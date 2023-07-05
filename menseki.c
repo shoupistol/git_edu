@@ -48,4 +48,4 @@ int menseki(type){
         printf("error");
         break;
     }
-}//yeah
+}//oi ugoke

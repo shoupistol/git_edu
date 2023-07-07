@@ -16,4 +16,5 @@ int main(void) {
     } else {
         printf("‘f”‚¶‚á‚È‚¢");
     }
+    return 0;
 }

@@ -20,4 +20,5 @@ int main(void){
     
     printf("‚©‚©‚Á‚½”N : %d",year);
     
+    return 0;
 }

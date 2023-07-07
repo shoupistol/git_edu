@@ -25,4 +25,6 @@ int main(void){
     else if(result >= baseB) printf("’PˆÊ : B");
     else if(result >= baseC) printf("’PˆÊ : C");
     else printf("’PˆÊ : F");
+    
+    return 0;
 }

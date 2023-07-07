@@ -9,4 +9,5 @@ int main(void){
         answer *= i;
         printf("%2d! : %10d\n" , i , answer);
     }
+    return 0;
 }

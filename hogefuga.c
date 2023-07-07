@@ -3,7 +3,7 @@
 int main(void) {
     int count;
 
-    printf("何番まで表示する？ ");
+    printf("何番まで表示する？ "); //「表示」が文字化けするの何？
     scanf("%d",&count);
 
     for (int i = 1; i <= count; i++) {

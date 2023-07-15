@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define RAND(max) 1 + (int)(rand() * max / (1.0 + RAND_MAX)) //ランダムマクロ:1~maxまでの乱数
+#define RAND(max) (int)(rand() * max / (1.0 + RAND_MAX)) //ランダムマクロ:0~maxまでの乱数
 
 int main(void) {
     srand((unsigned int)time(NULL));
@@ -19,7 +19,7 @@ int main(void) {
     do {
         answer[2] = RAND(9);
     } while (answer[0] == answer[2] || answer[1] == answer[2]);
-    
+
     do {
         answer[3] = RAND(9);
     } while (answer[0] == answer[3] || answer[1] == answer[3] || answer[2] == answer[3]);

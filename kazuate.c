@@ -8,7 +8,7 @@ int main(void) {
     int answer;
     srand((unsigned int)time(NULL)); 
     int num = RANDOM(1,500);
-    num = RANDOM(1,500); //‚±‚¤‚µ‚½‚ç—”‚ª‚Û‚­‚È‚é
+    num = RANDOM(1,500); //“ñ‰ñ‚â‚Á‚½‚ç—”‚ª‚Û‚­‚È‚é
 
     for(int i = 1; ;i++){
         printf("”‚ğ“ü—Í ");

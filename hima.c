@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int m1 (int , int);
-int m2 (int , int);
-int m3 (int , int);
-int m4 (int , int);
+int plus (int , int);
+int minus (int , int);
+int asterisk (int , int);
+int slash (int , int);
 
 int main(void) {
     int a , n , b , c;
@@ -25,17 +25,17 @@ int main(void) {
     printf("%d\n", c);
 }
 
-int m1 (int a , int b) {
+int plus (int a , int b) {
     return a + b;
 }
 
-int m2 (int a , int b) {
+int minus (int a , int b) {
     return a - b;
 }
 
-int m3 (int a , int b) {
+int asterisk (int a , int b) {
     return a * b;
 }
-int m4 (int a , int b) {
+int slash (int a , int b) {
     return a / b;
 }

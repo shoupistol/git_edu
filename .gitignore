@@ -2,4 +2,4 @@
 *.out
 *.code-workspace
 *memo
-*.vscord
+*.vscode
